@@ -1,19 +1,19 @@
-import HomePage from './pages/HomePage';
-import type { ReactNode } from 'react';
+// //import HomePage from './pages/HomePage';
+// import type { ReactNode } from 'react';
 
-interface RouteConfig {
-  name: string;
-  path: string;
-  element: ReactNode;
-  visible?: boolean;
-}
+// interface RouteConfig {
+//   name: string;
+//   path: string;
+//   element: ReactNode;
+//   visible?: boolean;
+// }
 
-const routes: RouteConfig[] = [
-  {
-    name: 'Token Trading Table',
-    path: '/',
-    element: <HomePage />
-  }
-];
+// const routes: RouteConfig[] = [
+//   {
+//     name: 'Token Trading Table',
+//     path: '/',
+//     element: <HomePage />
+//   }
+// ];
 
-export default routes;
+// export default routes;
