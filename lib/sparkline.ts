@@ -1,3 +1,4 @@
+"use client";
 // lib/sparkline.ts
 export function generateSparkline(points = 20): string {
     const values = Array.from({ length: points }, () =>

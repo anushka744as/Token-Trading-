@@ -1,3 +1,6 @@
+
+"use client";
+
 import { memo, useCallback } from 'react';
 import type { Token, SortField, SortConfig } from '@/types/token';
 import { TokenRow } from './TokenRow';
