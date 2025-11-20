@@ -11,6 +11,7 @@ import { useTokenFilter } from '@/hooks/useTokenFilter';
 import { useTokens } from '@/contexts/TokenContext';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
+
 export const TokenTable = memo(function TokenTable() {
   const { tokens, isLoading, sortConfig, setSortConfig, filters } = useTokens();
 
