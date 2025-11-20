@@ -1,14 +1,3 @@
-/**
- * Video Player Component
- * 
- * Video player based on video-react wrapper, supports custom poster, autoplay, mute and other features
- * 
- * Usage example:
- * <Video
- *   src="" // Video resource URL, defaults to empty string
- *   poster="https://internal-amis-res.cdn.bcebos.com/images/2019-12/1577157239810/da6376bf988c.png" // Video poster image
- * />
- */
 
 import {
     BigPlayButton,
@@ -21,10 +10,10 @@ import {
     VolumeMenuButton,
     ProgressControl
 } from 'video-react';
+import { Player } from 'video-react';   
 import 'video-react/dist/video-react.css';
 
 interface VideoProps {
-    /** Video resource URL */
 src: string;
 poster?: string; /** Video poster image URL */
 className?: string; /** Custom class name */
@@ -102,7 +91,7 @@ display: block;
         <TimeDivider key="time-divider" />
         <DurationDisplay key="duration-display" />
         <ProgressControl key="progress-control" />
-        <FullscreenToggle key="fullscreen-toggle" />
+        <FullscreenToggle key="fullscreen-toggle" actions={undefined} />
         </ControlBar>
         <BigPlayButton position="center" />
     </Player>
