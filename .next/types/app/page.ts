@@ -1,4 +1,4 @@
-// File: /Users/anushkashah/Desktop/Token-Trading-/app/page.tsx
+// File: /Users/anushkashah/Desktop/Token-Trading--1/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
