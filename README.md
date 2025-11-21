@@ -2,19 +2,19 @@
 A modern, responsive, and real-time token analytics dashboard built with **Next.js**, **TypeScript**, and **TailwindCSS**.  
 This project displays token price movements, volatility, holders, liquidity, and market data with sorting, filtering, and live sparkline charts.
 
----
-
 ## ✨ Features
 
 ### 🔍 **Real-Time Token Stats**
 - Live price updates  
 - Market cap, liquidity, holders count  
-- 24h volume & token age tracking  
+- 24h volume & token age tracking
+  
 
 ### 📊 **Interactive Table**
 - Sort by **Price**, **Volume**, **Market Cap**, **Liquidity**, **Holders**, **Age**
 - Sticky header  
-- Fully scrollable and responsive  
+- Fully scrollable and responsive
+  
 
 ### ⚡ **Dynamic Filters**
 - Filter tokens by:
@@ -22,27 +22,30 @@ This project displays token price movements, volatility, holders, liquidity, and
   - New Pairs  
   - Final Stretch  
   - Migrated  
-- Instant refresh option  
+- Instant refresh option
+  
 
 ### 📈 **Live Sparklines**
 - Red/Green animated sparkline movement for each token  
-- Smooth and lightweight  
+- Smooth and lightweight
+  
 
 ### 🖼 **Token Icons**
 - Each token includes a real SVG/PNG icon  
-- Images served from `/public/token-icons/`  
+- Images served from `/public/token-icons/`
+  
 
 ### 💡 **Clean Architecture**
 - Custom hooks (`useTokenSort`, `useTokenFilter`, `usePriceAnimation`)  
 - Context Provider (`TokenContext`)  
-- Component-based reusable UI  
+- Component-based reusable UI
+  
 
 ### 🚀 **Production Ready**
 - Fully deployed on Vercel  
 - Zero external backend required  
 - Fast SSR + client hydration  
 
----
 
 ## 🛠️ **Tech Stack**
 
@@ -55,6 +58,14 @@ This project displays token price movements, volatility, holders, liquidity, and
 | Charts | Custom Canvas Sparkline |
 | Deployment | **Vercel** |
 
----
 
-## 📂 **Project Structure**
+## ▶️ **Run Locally**
+- npm install
+- npm run dev
+Visit:
+👉 http://localhost:3000
+
+
+## 🌍 **Deployment**
+-This project is fully optimized for Vercel.
+👉 token-trading-lpgu-ql5twr2no-anushka-shahs-projects-5da5050e.vercel.app
